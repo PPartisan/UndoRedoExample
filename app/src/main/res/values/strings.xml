@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UndoRedoExample</string>
+
+    <!-- Settings -->
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- System -->
+    <string name="error_generic">Error</string>
+    <string name="error_undo_queue_empty">Undo Queue Empty</string>
+    <string name="error_redo_queue_empty">Redo Queue Empty</string>
+</resources>
