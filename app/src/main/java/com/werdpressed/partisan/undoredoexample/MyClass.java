@@ -116,7 +116,6 @@ public class MyClass extends Fragment implements TextWatcher {
             tempStringStart = undoArrayIndex.poll();
 
             mEditText.setText(tempString);
-            Toast.makeText(getActivity(), tempStringStart + "", Toast.LENGTH_LONG).show();
             if (tempStringStart >= 0 && tempStringStart <= mEditText.length()) {
                 mEditText.setSelection(tempStringStart);
             }
@@ -136,7 +135,6 @@ public class MyClass extends Fragment implements TextWatcher {
             tempStringStart = redoArrayIndex.poll();
 
             mEditText.setText(tempString);
-            Toast.makeText(getActivity(), tempStringStart + "", Toast.LENGTH_LONG).show();
             if (tempStringStart >= 0 && tempStringStart <= mEditText.length()) {
                 mEditText.setSelection(tempStringStart);
             }
